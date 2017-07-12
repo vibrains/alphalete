@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+  font: 16px/1.5 sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 0;
+}
+
+.red {
+  background-color: #f44336;
+}
+
+.pink {
+  background-color: #e91e63;
+}
+
+.purple {
+  background-color: #9c27b0;
+}
+
+.deep-purple {
+  background-color: #673ab7;
+}
+
+.indigo {
+  background-color: #3f51b5;
+}
+
+.blue {
+  background-color: #2196f3;
+}
+
+.light-blue {
+  background-color: #03a9f4;
+}
+
+.cyan {
+  background-color: #00bcd4;
+}
+
+span.select2.select2-container.select2-container--default {
+  width: 220px!important;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+  max-height: 350px!important;
+  overflow-y: auto;
+}
+
+.image.is-48x48 img {
+  border-radius: 100%;
+}
+.card {
+  height: 100%;
+}
